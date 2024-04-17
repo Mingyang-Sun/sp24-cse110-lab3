@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meeting Minutes</title>
+  <link rel="icon" href="screenshots/icon.png" type="image/x-icon">
+</head>
+
+<body>
+  <header>
+    <h1>Meeting Minutes</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#meeting-topic">Meeting Topic</a></li>
+      <li><a href="#attendance">Attendance</a></li>
+      <li><a href="#agenda">Agenda</a></li>
+      <li><a href="#unfinished-business">Unfinished Business</a></li>
+      <li><a href="#new-business">New Business</a></li>
+      <li><a href="#misc-comments">Miscellaneous Comments</a></li>
+      <li><a href="#pictures">Pictures</a></li>
+      <li><a href="#audio">Audio Recording</a></li>
+      <li><a href="#video">Video Recording</a></li>
+    </ul>
+  </nav>
+
+  <hr>
+
+  <main>
+    <section id="meeting-topic">
+      <h2>Meeting Topic: Brainstorming</h2>
+      <h3>Date: April 16, 2024</h3>
+    </section>
+
+    <section id="attendance">
+      <h2>Attendance</h2>
+      <ul>
+        <li><b>Mingyang Sun</b></li>
+        <li><strong>Mingyang Sun</strong></li>
+
+        <br>
+
+        <li><i>Mingyang Sun</i></li>
+        <li><em>Mingyang Sun</em></li>
+
+      </ul>
+    </section>
+
+    <section id="agenda">
+      <h2>Agenda</h2>
+      <ol>
+        <li>Review of previous meeting minutes</li>
+        <li>Brainstorming session</li>
+        <li>Assigning tasks for next meeting</li>
+      </ol>
+    </section>
+
+    <section id="unfinished-business">
+      <h2>Unfinished Business</h2>
+      <div>No unfinished business </div>
+      <div>from the last meeting.</div>
+    </section>
+
+    <section id="new-business">
+      <h2>New Business</h2>
+      <span>Discussion on </span>
+      <span>new business.</span>
+    </section>
+
+    <section id="misc-comments">
+      <h2>Miscellaneous Comments</h2>
+      <details>
+        <summary>Details</summary>
+        Summary of miscellaneous comments.
+      </details>
+    </section>
+
+    <section id="pictures">
+      <h2>Pictures</h2>
+      <p>Pictures were presented during the meeting.</p>
+      <img src="/screenshots/team10.png" alt="team10" width="250" />
+    </section>
+
+    <section id="audio">
+      <h2>Audio Recording</h2>
+      <audio controls>
+        <source src="audio1699099271.m4a" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </section>
+
+    <section id="video">
+      <h2>Video Recording</h2>
+      <video controls>
+        <source src="video1699099271.mp4" type="video/mp4">
+        Your browser does not support the video element.
+      </video>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Team 10 Meeting Minutes. All rights reserved.</p>
+  </footer>
+
+  <form>
+    <fieldset>
+      <legend>Feedback Form</legend>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name"><br><br>
+
+      <label for="feedback">Feedback:</label><br>
+      <textarea id="feedback" name="feedback"></textarea><br><br>
+
+      <label for="subscribe">Subscribe:</label>
+      <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday"><br><br>
+      
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select><br><br>
+
+      <label for="age">Age:</label>
+      <input type="radio" id="under 18" name="age" value="under 18"> under 18
+      <input type="radio" id="above 18" name="age" value="above 18"> above 18<br><br>
+
+      <label for="favorite_color">Favorite Color:</label>
+      <input type="text" id="favorite_color" name="favorite_color" list="colors">
+      <datalist id="colors">
+        <option value="Red">
+        <option value="Green">
+        <option value="Blue">
+        <option value="Yellow">
+        <option value="Purple">
+      </datalist><br><br>
+
+      <button type="submit">Submit</button>
+
+    </fieldset>
+  </form>
+</body>
+
+</html>
