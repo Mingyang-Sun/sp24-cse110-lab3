@@ -1,4 +1,3 @@
-# Lab 2 - Starter
+# Lab 3
 
-
-[Part 1](https://mingyang-sun.github.io/Lab2_Starter).
+https://mingyang-sun.github.io/sp24-cse110-lab3/
