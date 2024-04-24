@@ -1,0 +1,136 @@
+/* This is a comment */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: hsl(34, 100%, 50%);
+}
+
+h2 {
+  color: orangered;
+}
+
+h3 {
+  color:  color(display-p3 0 1 0);
+}
+
+p {
+  color: color-mix(in srgb, red 50%, blue 50%);
+  text-align: center;
+  text-decoration: underline;
+}
+
+:root {
+  --main-color: #778899;
+}
+
+b {
+  color: var(--main-color, blue);
+}
+
+strong {
+  color: var(--undefined-color, #ffcc00);
+}
+
+/* Relative units */
+i {
+  font-size: 2em;
+  width: 75vw;
+  margin-top: 5%;
+}
+
+/* Absolute units */
+header {
+  width: 500px;
+  margin-top: 20pt;
+  border: 5mm solid black;
+  margin: auto
+}
+
+.boxone {
+  margin: 15px 15px 15px 15px;
+  padding: 15px 15px 15px 15px;
+  border-radius: 10px;
+  border: 5px solid blue;
+  display: inline-block;
+  position: sticky;
+  top: 20px;
+}
+
+.boxtwo {
+  margin-top: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+
+  padding-top: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  
+  border-style: solid;
+  border-color: green;
+  border-width: 5px;
+  border-radius: 10px;
+
+  display: block;
+  position: static;
+}
+
+.sizing {
+  max-width: 100%;
+  height: 50%;
+  min-width: none;
+}
+
+a:hover {
+  color: red
+}
+
+a:active {
+  color: green
+}
+
+.flex-container {
+  display: flex;
+  background: lightgray;
+  justify-content: space-around; /* Distributes space around items */
+  align-items: center; /* Vertically align items in the center */
+  height: 200px;
+}
+
+.flex-item {
+  background: navy;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  border: 2px solid black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  background: lightgray;
+  padding: 10px;
+}
+
+.grid-item {
+  background: lightblue;
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+  }
+}
