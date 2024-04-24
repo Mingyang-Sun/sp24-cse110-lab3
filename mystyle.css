@@ -17,7 +17,7 @@ h2 {
 }
 
 h3 {
-  color:  color(display-p3 0 1 0);
+  color:  color(display-p3, 0, 1, 0);
 }
 
 p {
