@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meeting Minutes</title>
   <link rel="icon" href="screenshots/icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="mystyle.css">
 </head>
 
 <body>
@@ -45,25 +46,25 @@
       </ul>
     </section>
 
-    <section id="agenda">
+    <section id="agenda" class="boxone" class="grid-container">
       <h2>Agenda</h2>
       <ol>
-        <li>Review of previous meeting minutes</li>
-        <li>Brainstorming session</li>
-        <li>Assigning tasks for next meeting</li>
+        <li class="grid-item">Review of previous meeting minutes</li>
+        <li class="grid-item">Brainstorming session</li>
+        <li class="grid-item">Assigning tasks for next meeting</li>
       </ol>
     </section>
 
-    <section id="unfinished-business">
-      <h2>Unfinished Business</h2>
-      <div>No unfinished business </div>
+    <section id="unfinished-business" class="boxtwo" class="flex-container">
+      <h2 class="flex-item">Unfinished Business</h2>
+      <div class="flex-item">No unfinished business </div>
       <br>
-      <div>from the last meeting.</div>
+      <div class="flex-item">from the last meeting.</div>
     </section>
 
     <section id="new-business">
       <h2>New Business</h2>
-      <span>Discussion on </span>
+      <span class="sizing">Discussion on </span>
       <span>new business.</span>
     </section>
 
