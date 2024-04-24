@@ -89,7 +89,7 @@ header {
   min-width: none;
 }
 
-a:hover {
+button:hover {
   color: red
 }
 
@@ -133,4 +133,49 @@ a:active {
   .container {
       flex-direction: column;
   }
+}
+
+#meeting-topic {
+  background-color: #FFFF99;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"] {
+  background-color: #e7acac;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+nav li {
+  display: inline-block;
+}
+
+section ul > li:hover {
+  text-decoration: underline;
+}
+
+h2 ~ span {
+  color: grey;
+}
+
+h2 + details {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button.primary {
+  background-color: lightblue;
+}
+
+h2:has(+ p) {
+  background-color: blue;
+}
+
+nav li:hover > a {
+  color: yellow;
 }
